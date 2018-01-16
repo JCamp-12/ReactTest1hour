@@ -47,6 +47,8 @@ class App extends Component {
                   onChange={event => this.setState({ backlog: event.target.value })}
                   className='input-format-register'
                 />
+                </FormGroup>
+                <FormGroup>
                 <ControlLabel>To-Do</ControlLabel>
                 <div>
                   <ul>
@@ -63,6 +65,8 @@ class App extends Component {
                   onChange={event => this.setState({ todo: event.target.value })}
                   className='input-format-register'
                 />
+                 </FormGroup>
+                <FormGroup>
                 <ControlLabel>In Progress</ControlLabel>
                 <div>
                   <ul>
@@ -79,6 +83,8 @@ class App extends Component {
                   onChange={event => this.setState({ inProgress: event.target.value })}
                   className='input-format-register'
                 />
+                 </FormGroup>
+                <FormGroup>
                 <ControlLabel>Completed</ControlLabel>
                 <div>
                   <ul>

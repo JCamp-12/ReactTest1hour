@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .btn {
@@ -8,7 +9,8 @@
 }
 
 .signup-main {
-  align-content: left;
+  /* align-content: left; */
+  display: flex;
 }
 
 /* new test */
